@@ -1,0 +1,109 @@
+
+body{
+	width: 100vw;
+	background: #fff;
+}
+.header_name{
+  	padding: 20px;
+  	font-size: 20px;
+  	text-align: center !important;
+  	background: #333;
+  	color: #fff;
+  	text-align: center;
+}
+.footer_name{
+	text-align: center;
+}
+.button_container{
+	text-align: center;
+	display: block;
+	margin: 0;
+}
+.button_suffle_sort{
+	display: inline-block;
+	background: #5ebcd9;
+    padding: 11px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 0px #165d73;
+    cursor: pointer;
+}
+.card_list{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+div.card{
+	background: #EFEFEF;
+	padding: 12px;
+	font-size: 21px;
+	margin : 4px;
+	color: #000;
+}
+#card1{
+ border-left: 10px soild #6F98A8; 
+}
+div#card1 {border-left: 10px solid #6F98A8;}
+div#card2 {border-left: 10px solid #2B8EAD;}
+div#card3 {border-left: 10px solid #2F454E;}
+div#card4 {border-left: 10px solid #2B8EAD;}
+div#card5 {border-left: 10px solid #2F454E;}
+div#card6 {border-left: 10px solid #BFBFBF;}
+div#card7 {border-left: 10px solid #BFBFBF;}
+div#card8 {border-left: 10px solid #6F98A8;}
+div#card9 {border-left: 10px solid #2F454E;}
+
+
+@media only screen and (min-width: 960px) {
+	body{
+		background: #EFEFEF;
+	}
+	.header_name{
+		background: #fff;
+		color: #000;
+	}
+	.main_container{
+		border-top: 4px solid #BFBFBF;
+	}
+	.card_container{
+		width: 75%;
+		display: inline-block;
+	}
+	.button_container{
+		width: 15%;
+		display: inline-block;
+		float: right;
+	    top: 50px;
+	}
+	.card_list{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		padding: 0;
+	}
+	div.card{
+		padding: 50px;
+		font-size: 60px;
+	    vertical-align: middle;
+		color:#fff;
+		text-align: center;
+		margin: 0;
+	}
+	.button_suffle_sort{
+		padding: 10px 26px;
+	}
+	div#card1{	background: #6F98A8; border: none;}
+	div#card2{	background: #2B8EAD; border: none;}
+	div#card3{	background: #2F454E; border: none;}
+	div#card4{	background: #2B8EAD; border: none;}
+	div#card5{	background: #2F454E; border: none;}
+	div#card6{	background: #BFBFBF; border: none;}
+	div#card7{	background: #BFBFBF; border: none;}
+	div#card8{	background: #6F98A8; border: none;}
+	div#card9{	background: #2F454E; border: none;}
+
+	.footer_name{
+		margin-top: 30px;
+	}
+}
